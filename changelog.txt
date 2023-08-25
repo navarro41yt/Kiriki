@@ -1,2 +1,8 @@
 pre-alpha v1.0
-    - Estructura pricipal y funcionalidad básica
+    + Estructura pricipal
+
+pre-alpha v1.1
+    + Funcionalidad básica
+
+alpha v1.0
+    + Color a los simbolos
