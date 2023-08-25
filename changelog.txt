@@ -1,0 +1,2 @@
+pre-alpha v1.0
+    - Estructura pricipal y funcionalidad básica

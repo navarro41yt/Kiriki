@@ -1,0 +1,185 @@
+.link{
+    font-family: "comic-style";
+    font-size: 9px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1877f2;
+    transition: 100ms;
+}
+
+.link:hover{
+    cursor: pointer;
+    color: #0062e2;
+    text-decoration: underline;
+    transition: 300ms;
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #313131;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.separator {
+    width: 100%;
+    height: 5%;
+}
+
+.game-area {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.controllers {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dice {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "roboto-regular";
+    font-size: 1000%;
+}
+
+.button {
+    width: 48%;
+    height: 50%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "roboto-regular";
+    font-size: 40px;
+}
+
+.button:active {
+    background-color: #e6e6e6;
+}
+
+.content{
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    border: 2px solid #aaa;
+    box-shadow: 0 0 100px #ccc;
+    border-radius: 25px;
+}
+
+.header{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name{
+    text-transform: uppercase;
+    font-family: "comic-style";
+    font-size: 30px;
+    user-select: none;
+} .name:hover{cursor: default;}
+
+.form{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    font-family: "comic-style";
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.otherMethods{
+    height: 60px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.noText{
+    color: black;
+    font-size: 12px;
+    text-transform: capitalize;
+    user-select: none;
+    text-decoration: none;
+}
+
+.google, .facebook{
+    padding: 2px;
+    height: 30px;
+    width: 150px;
+    background-color: #fff;
+    border: 3px solid #ccc;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "roboto-regular";
+}
+
+.google:hover, .facebook:hover{
+    cursor: pointer;
+    background-color: #eee;
+    transition: 300ms;
+}
+
+.otherMethods .google .icon{
+    width: var(--iconDiv);
+    height: var(--iconDiv);
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../src/img/icons/google.svg) no-repeat center/var(--iconDiv);
+}
+
+.otherMethods .facebook .icon{
+    width: var(--iconDiv);
+    height: var(--iconDiv);
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../src/img/icons/facebook.svg) no-repeat center/var(--iconDiv);
+}
+
+.register{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-family: "comic-style";
+    font-size: 9px;
+    text-transform: uppercase;
+}
