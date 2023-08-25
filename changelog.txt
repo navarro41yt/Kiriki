@@ -6,3 +6,12 @@ pre-alpha v1.1
 
 alpha v1.0
     + Color a los simbolos
+
+alpha v1.1
+    - Estado "stable"
+    - Codigo Innecesario
+
+    + Estado "LTS"
+    + Nuevo Icono
+    + Ajustado el tama;o de los botones
+    + Título

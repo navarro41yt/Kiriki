@@ -27,20 +27,21 @@ function roll() {
 
     // Procesamos los valores de los dados
     process(i);
-
-    // Imprimimos a modo de info los datos por consola
-    console.info("Dado 1: " + dado[0]);
-    console.info("Dado 2: " + dado[1]);
-
-    // Salto de linea para la consola
-    console.log("");
-
-    covered = false;
   }
-
+  
+  // Imprimimos a modo de info los datos por consola
+  console.info("Dado 1: " + dado[0]);
+  console.info("Dado 2: " + dado[1]);
+  
+  // Salto de linea para la consola
+  console.log("");
+  
   // Cambiamos el texto del dado1 y dado2
   dice1.innerHTML = values[0];
   dice2.innerHTML = values[1];
+
+  // Cambiamos el estado de tapado a false
+  covered = false;
 }
 
 // Creamos la funcion "cover"
