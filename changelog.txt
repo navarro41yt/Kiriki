@@ -18,3 +18,6 @@ alpha v1.1
 
 alpha v1.1.1
     - Bug del Icono
+
+alpha v1.1.2
+    - Bug de la Version
