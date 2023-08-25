@@ -15,3 +15,6 @@ alpha v1.1
     + Nuevo Icono
     + Ajustado el tama;o de los botones
     + Título
+
+alpha v1.1.1
+    - Bug del Icono
