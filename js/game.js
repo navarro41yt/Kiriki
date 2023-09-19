@@ -1,8 +1,7 @@
 
 // ^ Definimos los dos archivos de Audio
-const EXTENSION = "wav";
-var rollAudio = new Audio("../src/mp3/roll." + EXTENSION);
-var coverAudio = new Audio("../src/mp3/cover." + EXTENSION);
+var rollAudio = document.getElementById('rollAudio');
+var coverAudio = document.getElementById('coverAudio');
 
 // ^ Cogemos los botones 1 y 2 del HTML
 var button1 = document.getElementById("button1");

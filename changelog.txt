@@ -33,4 +33,6 @@ alpha v1.2.1
 alpha v1.1.2
     + Cambiado a wav para ver si se arregla el sondio en Github Pages
     + Agregada la funcion init al final del archivo JS (Temporal)
-    
+
+alpha v1.3
+    + Sonido finalmente arreglado

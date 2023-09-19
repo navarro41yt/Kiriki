@@ -3,7 +3,7 @@
  */
 
 // ^ Definimos variables
-const version = "v1.2.2";
+const version = "v1.3";
 const state = "Alpha";
 const title = "Kiriki"
 
