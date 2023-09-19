@@ -22,7 +22,10 @@ alpha v1.1.1
 alpha v1.1.2
     - Bug de la Version
 
-alpha v1.1
+alpha v1.2
     - Bug de los Puntos Negros
     - Stylesheet innecesaria
     + Sonido a los Dados y al Tapar
+
+alpha v1.2.1
+    + Versión cambiada
