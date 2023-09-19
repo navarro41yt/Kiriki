@@ -1,6 +1,8 @@
+
 // ^ Definimos los dos archivos de Audio
-var rollAudio = new Audio("../src/mp3/roll.mp3");
-var coverAudio = new Audio("../src/mp3/cover.mp3");
+const EXTENSION = "wav";
+var rollAudio = new Audio("../src/mp3/roll." + EXTENSION);
+var coverAudio = new Audio("../src/mp3/cover." + EXTENSION);
 
 // ^ Cogemos los botones 1 y 2 del HTML
 var button1 = document.getElementById("button1");
@@ -18,7 +20,8 @@ var values = ["", ""];
 var covered = true;
 
 // ? Hacemos que al hacer click en el botón 1 se ejecute la función "roll"
-button1.addEventListener("click", roll);
+// Con un cooldown de 3 segundos
+    button1.addEventListener("click", roll);
 
 // ? Hacemos que al hacer click en el botón 2 se ejecute la función "tapar"
 button2.addEventListener("click", cover);
@@ -123,3 +126,5 @@ function process(i) {
         }
     }
 }
+
+init();
