@@ -13,7 +13,7 @@ alpha v1.1
 
     + Estado "LTS"
     + Nuevo Icono
-    + Ajustado el tama;o de los botones
+    + Ajustado el tamaño de los botones
     + Título
 
 alpha v1.1.1
@@ -21,3 +21,8 @@ alpha v1.1.1
 
 alpha v1.1.2
     - Bug de la Version
+
+alpha v1.1
+    - Bug de los Puntos Negros
+    - Stylesheet innecesaria
+    + Sonido a los Dados y al Tapar

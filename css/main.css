@@ -1,4 +1,4 @@
-.link{
+.link {
     font-family: "comic-style";
     font-size: 9px;
     text-decoration: none;
@@ -7,14 +7,14 @@
     transition: 100ms;
 }
 
-.link:hover{
+.link:hover {
     cursor: pointer;
     color: #0062e2;
     text-decoration: underline;
     transition: 300ms;
 }
 
-.bg{
+.bg {
     width: 100%;
     height: 100%;
     position: absolute;

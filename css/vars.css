@@ -1,8 +1,10 @@
-:root{
+:root {
     --iconDiv: 20px;
 }
 
-#version, #state, #title{
+#version,
+#state,
+#title {
     position: absolute;
     top: 0;
     right: 0;
@@ -14,15 +16,17 @@
     user-select: none;
 }
 
-#state{
+#state {
     top: 0;
     left: 0;
     margin-right: 0;
     margin-left: 10px;
 }
 
+
 /* Title al centro arriba */
-#title{
+
+#title {
     left: 40%;
     margin-right: 0;
 }
