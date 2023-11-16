@@ -25,6 +25,7 @@ alpha v1.1.2
 alpha v1.2
     - Bug de los Puntos Negros
     - Stylesheet innecesaria
+    
     + Sonido a los Dados y al Tapar
 
 alpha v1.2.1
@@ -36,3 +37,7 @@ alpha v1.1.2
 
 alpha v1.3
     + Sonido finalmente arreglado
+
+alpha v1.3.1
+    + El texto de los dados y de los botones ya no se puede seleccionar
+    + Cambiado el estilo por encima
